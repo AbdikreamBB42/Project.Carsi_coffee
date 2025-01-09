@@ -1,0 +1,26 @@
+// let element= document.querySelector("h1");
+// let elemen2= document.querySelector("#element2");
+// let elemen3 = document.querySelector('.element3');
+// console.log(elemen3);
+// console.log(elemen2);
+// console.log(element);
+  
+// let elemen2=document.getElementById("element2")
+// let element=document.getElementsByTagName("h1")[0]
+// let element3 =document.getElementsByClassName("beer")[0]
+// console.log(element3);
+//console.log(element);
+//console.log(elemen2); 
+let main = document.querySelector("#main");
+
+let newElement = document.createElement("p");
+let newContent = document.createTextNode("welcome to the university jamhuriya")
+newElement.append(newContent);
+
+let newElement2 = document.createElement("p");
+let newContent2 = document.createTextNode("welcome to the university jamhuriya")
+newElement2.appendChild(newContent2);
+
+main.append(newElement);
+main.append(newElement2);
+ console.log(newElement);
